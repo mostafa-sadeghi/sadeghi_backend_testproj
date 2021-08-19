@@ -1,0 +1,7 @@
+
+{% autoescape off %}
+Hello {{user.name}}
+
+http://127.0.0.1:8000{% url 'account:activate' uidb64=uid token=token %}
+
+{% endautoescape %}
